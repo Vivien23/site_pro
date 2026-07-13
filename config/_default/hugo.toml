@@ -13,7 +13,7 @@ enableRobotsTXT = true
 summaryLength = 0
 
 buildDrafts = false
-buildFuture = false
+buildFuture = true
 
 enableEmoji = true
 
@@ -28,7 +28,7 @@ enableEmoji = true
 [taxonomies]
   tag = "tags"
   category = "categories"
-  author = "authors"
+  author = "author"
   series = "series"
 
 [sitemap]
