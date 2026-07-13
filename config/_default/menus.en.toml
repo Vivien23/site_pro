@@ -12,54 +12,35 @@
 
 [[main]]
   name = "About Me"
-  pageRef = "abt_me"
+  pageRef = "/"
   weight = 10
 
 [[main]]
-  name = "Papers"
+  name = "Publications"
   weight = 20
 
 [[main]]
+  name = "Papers"
+  parent = "Publications"
+  url = "https://dblp.org/pid/index.html"
+  weight = 10
+
+
+[[main]]
   name = "Talks"
-  weight = 30
+  parent = "Publications"
+  pageref = "talks"
+  weight = 20
 
 [[main]]
   name = "Experience"
+  pageref = "experience"
+  weight = 30
+
+[[main]]
+  name = "Teachings"
+  pageRef = "teachings"
   weight = 40
-
-#[[main]]
-#  name = "example sub-menu 1"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
-
-#[[main]]
-#  name = "example sub-menu 2"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
-
-#[[subnavigation]]
-#  name = "An interesting topic"
-#  pageRef = "tags/interesting-topic"
-#  weight = 10
-
-#[[subnavigation]]
-#  name = "My Awesome Category"
-#  pre = "github"
-#  pageRef = "categories/awesome"
-#  weight = 20
-
-#[[main]]
-#  name = "Categories"
-#  pageRef = "categories"
-#  weight = 20
-
-#[[main]]
-#  name = "Tags"
-#  pageRef = "tags"
-#  weight = 30
-
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
