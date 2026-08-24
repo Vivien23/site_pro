@@ -1,4 +1,5 @@
-SRCFILES :=  $(wildcard archetypes/**/* assets/**/* config/**/* content/**/* data/**/* i18n/**/* layouts/**/* themes/**/* )
+SRCFILES :=  $(wildcard archetypes/**/* assets/**/* content/**/* data/**/* layouts/**/* static/**/*) config.yaml
+DEPS := $(wildcard node_modules/**/*)
 LFTP := lftp_script.sh
 
 .PHONY: all
@@ -14,8 +15,8 @@ deploy: public $(LFTP)
 
 .PHONY: clean
 clean:
-	rm -r public resources
+	rm -r hugo_stats.json .hugo_build.lock public/* build.ps1
 
 .PHONY: test
 test:
-	hugo
+	hugo server
