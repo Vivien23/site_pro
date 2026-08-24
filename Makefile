@@ -1,4 +1,4 @@
-SRCFILES :=  $(wildcard archetypes/**/* assets/**/* config/**/* content/**/* data/**/* themes/**/*)
+SRCFILES :=  $(wildcard archetypes/**/* assets/**/* config/**/* content/**/* data/**/* i18n/**/* layouts/**/* themes/**/* )
 LFTP := lftp_script.sh
 
 .PHONY: all
@@ -14,4 +14,8 @@ deploy: public $(LFTP)
 
 .PHONY: clean
 clean:
-	rm -r public
+	rm -r public resources
+
+.PHONY: test
+test:
+	hugo
