@@ -1,37 +1,17 @@
 [
   {
-    "icon": "bi bi-linkedin",
-    "url": "#",
-    "title": "LinkedIn"
-  },
-  {
-    "icon": "bi bi-stack-overflow",
-    "url": "#",
-    "title": "StackOverflow"
-  },
-  {
     "icon": "bi bi-github",
-    "url": "#",
+    "url": "https://github.com/Vivien23",
     "title": "GitHub"
   },
   {
-    "icon": "bi bi-twitter",
-    "url": "#",
-    "title": "Twitter"
+    "icon": "bi bi-gitlab",
+    "url": "https://gitlab.inria.fr/vgachet",
+    "title": "GitLab"
   },
   {
     "icon": "ai ai-orcid",
-    "url": "#",
+    "url": "https://orcid.org/0009-0005-8913-6602",
     "title": "Orcid"
-  },
-  {
-    "icon": "ai ai-google-scholar",
-    "url": "#",
-    "title": "Google Scholar"
-  },
-  {
-    "icon": "ai ai-researchgate",
-    "url": "#",
-    "title": "ResearchGate"
   }
 ]
