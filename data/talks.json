@@ -1,0 +1,15 @@
+{
+  "title": "Talks",
+  "icon": "bi bi-book",
+  "format": ["date", "authors", "title", "conference"],
+  "delimiter": "; ",
+  "types": ["Journal Articles", "Proceedings"],
+  "list": [
+    {
+      "title": "[*Not a talk*](#)",
+      "authors": "Not Me",
+      "date": "2026",
+      "conference": "Zoom"
+    }
+  ]
+}

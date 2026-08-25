@@ -1,5 +1,6 @@
 baseURL: /
 locale: en-us
+default_Content_Language: en
 build:
   writeStats: true
 title: Vivien GACHET
@@ -20,7 +21,4 @@ params:
     - item: experiences
     - item: education
     - item: publications
-    - item: projects
-    - item: skills
-      panel_id: skill-panel
-    - item: hobbies
+    - item: talks
