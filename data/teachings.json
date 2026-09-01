@@ -1,0 +1,15 @@
+{
+  "title": "Teaching",
+  "icon": "",
+  "format": ["date", "class", "title", "university", "material"],
+  "delimiter": "; ",
+  "list": [
+    {
+      "title": "Compilation",
+      "class": "M1",
+      "university": "Université Claude Bernard Lyon 1",
+      "date": "2026",
+      "material": "https://forge.univ-lyon1.fr/matthieu.moy/mif08"
+    }
+  ]
+}

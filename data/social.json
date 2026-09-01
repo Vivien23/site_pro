@@ -1,6 +1,11 @@
 [
   {
     "icon": "bi bi-github",
+    "url": "mailto:vivien.gachet@ens-lyon.fr",
+    "title": "EMail"
+  },
+  {
+    "icon": "bi bi-github",
     "url": "https://github.com/Vivien23",
     "title": "GitHub"
   },
