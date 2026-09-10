@@ -1,6 +1,6 @@
 [
   {
-    "icon": "bi bi-github",
+    "icon": "bi bi-at",
     "url": "mailto:vivien.gachet@ens-lyon.fr",
     "title": "EMail"
   },
@@ -13,6 +13,11 @@
     "icon": "bi bi-gitlab",
     "url": "https://gitlab.inria.fr/vgachet",
     "title": "GitLab"
+  },
+  {
+    "icon": "ai ai-dblp",
+    "url": "https://youtu.be/dQw4w9WgXcQ",
+    "title": "DBPL"
   },
   {
     "icon": "ai ai-orcid",
