@@ -2,7 +2,7 @@ baseURL: /
 locale: en-us
 default_Content_Language: en
 build:
-  writeStats: true
+  writeStats: false
 title: Vivien GACHET
 # Uncomment below to use aafu as hugo theme. See instructions in README.md
 # theme: aafu
